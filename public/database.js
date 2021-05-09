@@ -16,7 +16,7 @@ req.onsuccess = ({ e }) => {
 };
 
 req.onerror = ({ e }) => {
-  console.log("Looks like there an error " + e.target.errorCode);
+  console.log("error: " + e.target.errorCode);
 };
 
 function saveRecord(records) {
